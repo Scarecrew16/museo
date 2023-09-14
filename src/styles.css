@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+
+:root{
+    --primary-font: 'Nunito Sans', sans-serif;
+}
+
+body{
+    font-family: var(--primary-font);
+
+
+    background-image:url("/assets/MUSEO-CONTALPA-10.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 95%;
+}
+
+main{
+    width: 100%;
+    background-color: #fff;
+}

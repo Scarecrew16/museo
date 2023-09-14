@@ -1,0 +1,107 @@
+footer{
+    margin-bottom: -12px;
+    padding-bottom: 12px;
+    width: 100%;
+    position: relative;
+    background-color: burlywood;
+    display: block;
+}
+
+.footer-title{
+    background: #000;
+    text-align: center;
+}
+
+.footer-title h1, .footer-title h4{
+    display: inline-block;
+    text-transform: uppercase;
+}
+    
+.footer-title h1{
+        color: #fff;
+        padding-right: 25px;
+        font-size: 15px;
+        text-align: center;
+        font-weight: lighter;
+}
+    
+.footer-title h4{
+        color:#4d4d4d;
+        font-size: 14px;
+}
+
+.footer-nav{
+    padding-top: 1.875rem !important;
+    padding-bottom: 1.875rem !important;
+    color: #4d4d4d;
+}
+
+.nav-container{
+    
+    text-align: center;
+}
+
+.footer-menu{
+    list-style: none;
+    justify-content: space-between;
+}
+
+.menu-item{
+    display: inline-block;
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 18px;
+}
+
+.menu-item a{
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer-redes, .patrocinadores{
+    display: inline-block;
+} 
+
+.footer-redes{
+    width: 620px;
+}
+
+.redes-icon{
+    width: 27px;
+    height: 27px;
+    
+}
+
+.redes-item{
+    padding: 12px;
+    display: inline-block;
+    border: 3px solid black;
+    border-radius: 100%;
+    margin-left: 40px;
+}
+
+/* .patrocinadores{
+    border: 1px solid red;
+} */
+
+.footer-logo{
+    padding: 15px;
+}
+
+.copyright-container{
+    display: inline-block;
+}
+
+.patrocinadores{
+    right: 12px;
+    position: absolute;
+}
+
+
+
+.copy-logo{
+    padding-right: 12px;
+    width: 70px;
+    height: 70px;
+}

@@ -1,0 +1,25 @@
+.title-container{
+    text-align: center;
+    padding-top: 10px;
+    font-size: xx-large;
+}
+
+.main-content{
+    padding-bottom: 12px;
+    margin: 0 auto;
+    width: 795px;
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+    font-weight:500;
+    font-size: 20px;
+    color:#4d4d4d;
+    display: block;
+}
+
+.main-content img{
+    width: 100%;
+    height: 490px;
+}

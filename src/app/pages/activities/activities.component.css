@@ -1,0 +1,28 @@
+.title-container{
+    text-align: center;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.activities{
+    text-align: center;
+    padding-bottom: 23px;
+}
+
+.activities-card img{
+    width: 280px;
+    height: 200px;
+}
+
+.activities-card{
+    margin-right: 12px;
+    display: inline-block;
+    width: 280px;
+    height: 460px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+}

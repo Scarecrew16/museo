@@ -1,0 +1,93 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.title-container{
+    text-align: center;
+    padding-top: 10px;
+    font-size:x-large;
+}
+
+.description{
+    margin: 0 auto;
+    width: 799px;
+    text-align: center;
+}
+
+p{
+    font-weight:500;
+    font-size: 22px;
+    color:#4d4d4d;
+    display: block;
+}
+
+.explore-collection{
+    text-align: center;
+}
+
+.collection-card img{
+    width: 265px;
+    height: 200px;
+}
+
+.collection-card{
+    margin:0 auto;
+    width: 265px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;;
+}
+
+.about-collection{
+    text-align: center;
+    padding-bottom: 34px;
+}
+
+.about-card{
+    width: 360px;
+    height: 210px;
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;;
+    display: inline-flex;
+    margin-right: 15px;
+    padding: 12px;
+}
+
+.ov-btn-slide-bottom {
+    background: transparent; /* color de fondo */
+    color: #000; /* color de fuente */
+    border: 0.125rem solid #000; /* tamaño y color de borde */
+    padding: 16px 20px;
+    border-radius: 3px; /* redondear bordes */
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ov-btn-slide-bottom:hover {
+    color: #fff; /* color de fuente hover */
+  }
+  .ov-btn-slide-bottom::after {
+    content: "";
+    background: #fc6914; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: 0;
+    right: 0;
+    top: 100%;
+    bottom: -100%;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+  .ov-btn-slide-bottom:hover::after {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    -webkit-transition: all 0.35s;
+    transition: all 0.35s;
+  }
+

@@ -1,0 +1,54 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.title-container{
+    text-align: center;
+    padding-top: 10px;
+    font-size:x-large;
+}
+
+.description{
+    margin: 0 auto;
+    width: 795px;
+    text-align: center;
+    /* padding-bottom: 12px; */
+}
+
+p{
+    font-weight:500;
+    font-size: 22px;
+    color:#4d4d4d;
+    display: block;
+}
+
+.expo-cards{
+    width: 330px;
+    margin: 0 auto;
+    /* display: inline-flex; */
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.card{
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 8px 4px #d3d3d3d1;
+    width: 330px;
+    height: 485px;
+    /* margin-right: 12px; */
+}
+
+.card-img{
+    width: 330px;
+    height: 195px;
+}
+
+.btn{
+    font-size: 14px;
+    font-weight: 800;
+    color: #000;
+    cursor: pointer;
+    border: 0.125rem solid black;
+    padding: 1.0625rem 1.75rem;
+}
