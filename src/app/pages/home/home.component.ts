@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { DatePipe } from '@angular/common';
+import { ContentfulService } from 'src/app/services/contentful.service';
+import { Observable } from 'rxjs';
 
 var today = new Date();
 
@@ -9,7 +11,15 @@ var today = new Date();
   styleUrls: ['./home.component.css']
 })
 
-export class HomeComponent {
+export class HomeComponent implements OnInit{
+
+  constructor(private contentfulService: ContentfulService){}
+
+  blogPosts$: Observable<any> | undefined;
+
+  ngOnInit(): void {
+    this.blogPosts$ = this.contentfulService.getAllEntries();      
+  }
  
   // date : any = today
 

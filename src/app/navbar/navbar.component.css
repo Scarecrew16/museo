@@ -10,6 +10,16 @@
     z-index: 1030;
 }
 
+/* .header-button{
+    background: none;
+    border: none;
+    display: none;
+
+    @media screen and (max-width:400px) {
+        display: flex;
+    }
+} */
+
 .heading-title{
     padding-left: 12px;
 }
@@ -38,6 +48,13 @@ text-transform: uppercase;
 .site-header-menu{
     padding-top: 0.313rem;
     padding-right: 1.25rem;
+
+    @media screen and (max-width:420px) {
+        display: none;
+        &--activo{
+            display: flex;
+        }
+    }
 
 }
 

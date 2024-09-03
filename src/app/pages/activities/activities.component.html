@@ -3,29 +3,19 @@
         <h1>Actividades</h1>
     </div>
     <section>
-        <div class="activities">
-            <div class="activities-card">
-                    <img src="/assets/beto-zarraga.jpg" alt="">
-                    <h6>Concierto</h6>
-                    <h2>Alberto Zarraga | De Contalpa</h2>
-                    <h4>14 de septiembre de 2023</h4>
-                    <h6>Publico general</h6>
+        <div class="activities" *ngIf="blogPosts$ | async as blogPosts">
+            <div  class="activities-card" *ngFor="let blogPost of blogPosts.items">
+                <img class="card-img" [src]="blogPost.fields.image.fields.file.url" alt="">
+                <div class="body-card">
+                    <h6 class="summary">{{blogPost.fields.tipo}}</h6>
+                    <h1>{{blogPost.fields.titulo}}</h1>
+                    <h4 class="summary">{{blogPost.fields.fecha}}</h4>
+                    <h4 class="summary">{{blogPost.fields.duracion}}</h4>
+                    <p class="summary">{{blogPost.fields.descripcion}}</p>
+                    <h6 class="summary">{{blogPost.fields.publico}}</h6>
+                </div>
+                <!-- <a [routerLink]="['/blog', blogPost.sys.id]">Read more</a> -->
             </div>
-            <div class="activities-card">
-                    <img src="/assets/altar.jpg" alt="">
-                    <h6>Montaje especial</h6>
-                    <h2>Altar del día de muertos</h2>
-                    <h4>Del 2 de noviembre al 17 de noviembre de 2023</h4>
-                    <h6>Publico general</h6>
-            </div>
-            <div class="activities-card">
-                <img src="/assets/fundacion.jpg" alt="">
-                <h6>Obra de teatro</h6>
-                <h2>Fundación de Nombre de Dios</h2>
-                <h4>17 de noviembre de 2023</h4>
-                <h6>Publico general</h6>
         </div>
-        </div>
-
     </section>
 </main>

@@ -8,7 +8,13 @@
     padding: 12px;
     margin: 0 auto;
     width: 795px;
-    text-align: center;
+    
+
+    @media screen and (max-width:420px) {
+        width: 336px;
+        margin: 1px;
+    }
+
 }
 
 p{
@@ -17,9 +23,20 @@ p{
     font-size: 20px;
     color:#4d4d4d;
     display: block;
+    text-align: center;
+
+    @media screen and (max-width:420px) {
+        width: 340px;
+    }
 }
 
 .main-content img{
     width: 100%;
     height: 490px;
+
+    @media screen and (max-width:420px) {
+        width: 335px;
+        height: 389px;
+        margin-left: 16px;
+    }
 }

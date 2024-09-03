@@ -34,6 +34,7 @@ footer{
     padding-top: 1.875rem !important;
     padding-bottom: 1.875rem !important;
     color: #4d4d4d;
+    display: none;
 }
 
 .nav-container{
@@ -65,12 +66,23 @@ footer{
 
 .footer-redes{
     width: 620px;
+
+    @media screen and (max-width:420px) {
+        width: 350px;
+        
+    }
 }
 
 .redes-icon{
     width: 27px;
     height: 27px;
     
+    @media screen and (max-width:420px) {
+        width: 20px;
+        height: 20px;
+
+        
+    }
 }
 
 .redes-item{
@@ -79,6 +91,11 @@ footer{
     border: 3px solid black;
     border-radius: 100%;
     margin-left: 40px;
+
+    @media screen and (max-width:420px) {
+        padding: 6px;
+        margin-left: 24px;
+    }
 }
 
 /* .patrocinadores{
@@ -96,6 +113,10 @@ footer{
 .patrocinadores{
     right: 12px;
     position: absolute;
+
+    @media screen and (max-width:420px) {
+       display: none;
+    }
 }
 
 

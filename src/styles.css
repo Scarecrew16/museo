@@ -9,14 +9,10 @@ body{
     font-family: var(--primary-font);
 
 
-    background-image:url("/assets/MUSEO-CONTALPA-10.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: 95%;
+
 }
 
 main{
-    width: 100%;
+    width: 100% auto;
     background-color: #fff;
 }
